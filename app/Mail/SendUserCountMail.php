@@ -20,6 +20,7 @@ class SendUserCountMail extends Mailable
     public function __construct($count)
     {
         //
+        $a=10;
         $this->count=$count;
     }
 
